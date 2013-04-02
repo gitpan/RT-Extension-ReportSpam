@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.69.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2ee5f201bc887d3d064a25ccabcc159dcfa54b18 Changes
+SHA1 9d0598bd9b89f8a8101ba27666a7314b30f36519 MANIFEST
+SHA1 3099703a8fb2ff74857844b1c96d122f28a16184 META.yml
+SHA1 59f9ddfe7dba6d78b9f3c7ae82a8fda48cabb994 Makefile.PL
+SHA1 8d6e0ce954739c3a956d7e098c36abb5bdd85262 README
+SHA1 618f959dd17faaa320cf7e4b905b06464ee01fc1 html/Callbacks/RT-Extension-ReportSpam/Elements/RT__Ticket/ColumnMap/Once
+SHA1 4e54dcc3b8cc51353d1e29cc9063e025bbbb3e48 html/Callbacks/RT-Extension-ReportSpam/Elements/Tabs/Privileged
+SHA1 bb528c2d5edb280ac40aabab4abf6daf3e7dd002 html/Helpers/Toggle/TicketSpam
+SHA1 6ae08f7b2e1b8e4f8264189d4c2c9ac7a57b46d4 html/NoAuth/images/empty_spam.png
+SHA1 10a31e1b27ce00994d3ed75de498018c7fe49d46 html/NoAuth/images/spam.png
+SHA1 d5f192d273a16494d1c7c7f92893e658fac7f69d html/Ticket/Elements/ReportSpam
+SHA1 4b070c29d9b75b012b0fe26d5bd67c4d65cfdfb3 html/Tools/Spam/Recent.html
+SHA1 756fc26ab1ae85a713b9b490b56bf0e2af7d18cc html/Tools/Spam/Reported.html
+SHA1 2e7cfdc8c4b1850f33e6afd2fc223864de992cb0 html/Tools/Spam/index.html
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 9ceabadaa50fa253b9a0d3972c82e9b7fb310b72 inc/Module/Install/RTx.pm
+SHA1 dc94326a076aca41452c1d65bf52a255feeb9ef7 inc/Module/Install/ReadmeFromPod.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 4c2ceabe91f6959885a954313a81c48830dc0a53 lib/RT/Extension/ReportSpam.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iD8DBQFRWwSDHdv9ZfNcOAcRAvLGAJ4wKF2OoZsQqLH9CJhI7fxbjx3k6ACeLHlT
+YYObAJjQi5F0ElOr2XyPUVM=
+=hw2I
+-----END PGP SIGNATURE-----
