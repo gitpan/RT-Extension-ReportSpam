@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 =encoding utf-8
 
@@ -36,6 +36,12 @@ Add this line:
     Set(@Plugins, qw(RT::Extension::ReportSpam));
 
 or add C<RT::Extension::ReportSpam> to your existing C<@Plugins> line.
+
+You may also want to set the C<$SpamAutoDeleteThreshold> config option to the
+number of spam reports required before the system will automatically delete the
+ticket.  This is useful if none of your users have DeleteTicket themselves, but
+collectively they should be able to delete spam tickets for good.  Auto-delete
+is disabled by leaving C<$SpamAutoDeleteThreshold> unset or setting it to 0.
 
 =item Clear your mason cache
 

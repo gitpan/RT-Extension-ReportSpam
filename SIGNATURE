@@ -14,17 +14,19 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2ee5f201bc887d3d064a25ccabcc159dcfa54b18 Changes
-SHA1 9d0598bd9b89f8a8101ba27666a7314b30f36519 MANIFEST
-SHA1 a790bb015c68830b64d169f04a60e5f4e42e1c65 META.yml
+SHA1 47a974655e44ef98180987143eb9b68fe9dac741 Changes
+SHA1 a91aaabec315f258ec212a98a42f7a7e623a05fa MANIFEST
+SHA1 f06ef0350c8044cb8758f96df08ab26282c65f4a META.yml
 SHA1 59f9ddfe7dba6d78b9f3c7ae82a8fda48cabb994 Makefile.PL
-SHA1 882f43b373f09d2a713debafc0b28c6f2de88df5 README
+SHA1 dc5d06c81cd16290afeca7e49d7e78262553b6c8 README
+SHA1 fbd5f19da23fbe6e823f5d3d2dd669bd1c236808 bin/auto-delete-retroactively
+SHA1 2dff5a2bdcee4f329022095f1302c97a72bf0496 bin/spam-report-statistics
 SHA1 618f959dd17faaa320cf7e4b905b06464ee01fc1 html/Callbacks/RT-Extension-ReportSpam/Elements/RT__Ticket/ColumnMap/Once
 SHA1 4e54dcc3b8cc51353d1e29cc9063e025bbbb3e48 html/Callbacks/RT-Extension-ReportSpam/Elements/Tabs/Privileged
 SHA1 bb528c2d5edb280ac40aabab4abf6daf3e7dd002 html/Helpers/Toggle/TicketSpam
 SHA1 6ae08f7b2e1b8e4f8264189d4c2c9ac7a57b46d4 html/NoAuth/images/empty_spam.png
 SHA1 10a31e1b27ce00994d3ed75de498018c7fe49d46 html/NoAuth/images/spam.png
-SHA1 45709c7af9adaa8b239891f73e506a236d80e215 html/Ticket/Elements/ReportSpam
+SHA1 6787de7c2567f4cb1bcde14f8a4f8fe7bb56c120 html/Ticket/Elements/ReportSpam
 SHA1 4b070c29d9b75b012b0fe26d5bd67c4d65cfdfb3 html/Tools/Spam/Recent.html
 SHA1 756fc26ab1ae85a713b9b490b56bf0e2af7d18cc html/Tools/Spam/Reported.html
 SHA1 2e7cfdc8c4b1850f33e6afd2fc223864de992cb0 html/Tools/Spam/index.html
@@ -38,11 +40,11 @@ SHA1 5f63805513cf3214069df32f21457c674dda05cc inc/Module/Install/RTx.pm
 SHA1 dc94326a076aca41452c1d65bf52a255feeb9ef7 inc/Module/Install/ReadmeFromPod.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 159125b81259139fdaaeb01e48f7dc4863fc8074 lib/RT/Extension/ReportSpam.pm
+SHA1 f97bb839c518bec638e734ee34ab9e7dadc916d6 lib/RT/Extension/ReportSpam.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iD8DBQFR+po1Hdv9ZfNcOAcRAq8BAJ9shXc0z6uF3TBP1hMBjXoNIzXKNgCeJZjg
-wNzmyoWwb62VwbiKw13zIo0=
-=MNgw
+iD8DBQFR+sdoHdv9ZfNcOAcRAknjAKCNq5VUZgsgIbosZKC2sxc2UenzDACeL3jS
+g5Tvfh6c9kjgeO0p/P3ZCWY=
+=ioas
 -----END PGP SIGNATURE-----
