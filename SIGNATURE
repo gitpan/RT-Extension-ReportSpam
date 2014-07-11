@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.69.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,37 +14,42 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 47a974655e44ef98180987143eb9b68fe9dac741 Changes
-SHA1 a91aaabec315f258ec212a98a42f7a7e623a05fa MANIFEST
-SHA1 f06ef0350c8044cb8758f96df08ab26282c65f4a META.yml
+SHA1 3c420eabebffa6fd984bcc360f5eaf0bb3d63a92 Changes
+SHA1 320bbbd7d9c04370477b8511d8f153e790daf6eb MANIFEST
+SHA1 424be7b40cefeee27bcc6837d87aa3f56a860c36 META.yml
 SHA1 59f9ddfe7dba6d78b9f3c7ae82a8fda48cabb994 Makefile.PL
-SHA1 dc5d06c81cd16290afeca7e49d7e78262553b6c8 README
+SHA1 e61e5f1449e2bd78363db120a7401e243e3925bf README
 SHA1 fbd5f19da23fbe6e823f5d3d2dd669bd1c236808 bin/auto-delete-retroactively
 SHA1 2dff5a2bdcee4f329022095f1302c97a72bf0496 bin/spam-report-statistics
 SHA1 618f959dd17faaa320cf7e4b905b06464ee01fc1 html/Callbacks/RT-Extension-ReportSpam/Elements/RT__Ticket/ColumnMap/Once
 SHA1 4e54dcc3b8cc51353d1e29cc9063e025bbbb3e48 html/Callbacks/RT-Extension-ReportSpam/Elements/Tabs/Privileged
 SHA1 bb528c2d5edb280ac40aabab4abf6daf3e7dd002 html/Helpers/Toggle/TicketSpam
-SHA1 6ae08f7b2e1b8e4f8264189d4c2c9ac7a57b46d4 html/NoAuth/images/empty_spam.png
-SHA1 10a31e1b27ce00994d3ed75de498018c7fe49d46 html/NoAuth/images/spam.png
-SHA1 6787de7c2567f4cb1bcde14f8a4f8fe7bb56c120 html/Ticket/Elements/ReportSpam
+SHA1 fadbc1834cfefb98e016f53508da5d6e89279263 html/Ticket/Elements/ReportSpam
 SHA1 4b070c29d9b75b012b0fe26d5bd67c4d65cfdfb3 html/Tools/Spam/Recent.html
 SHA1 756fc26ab1ae85a713b9b490b56bf0e2af7d18cc html/Tools/Spam/Reported.html
 SHA1 2e7cfdc8c4b1850f33e6afd2fc223864de992cb0 html/Tools/Spam/index.html
-SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
-SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
-SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
-SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
-SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
-SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
-SHA1 5f63805513cf3214069df32f21457c674dda05cc inc/Module/Install/RTx.pm
-SHA1 dc94326a076aca41452c1d65bf52a255feeb9ef7 inc/Module/Install/ReadmeFromPod.pm
-SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
-SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 f97bb839c518bec638e734ee34ab9e7dadc916d6 lib/RT/Extension/ReportSpam.pm
+SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
+SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
+SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
+SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
+SHA1 0c70de66cdd063352766d49db176e5f710f75fe7 inc/Module/Install/Include.pm
+SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
+SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
+SHA1 3b092ed8ce4fa9ed6667f681b54f4a624695e508 inc/Module/Install/RTx.pm
+SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
+SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
+SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
+SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
+SHA1 8fa133bb9c24a7d700fba7c4f951c2f059887460 lib/RT/Extension/ReportSpam.pm
+SHA1 6ae08f7b2e1b8e4f8264189d4c2c9ac7a57b46d4 static/images/empty_spam.png
+SHA1 10a31e1b27ce00994d3ed75de498018c7fe49d46 static/images/spam.png
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+Version: GnuPG v1.4.12 (Darwin)
+Comment: GPGTools - http://gpgtools.org
 
-iD8DBQFR+sdoHdv9ZfNcOAcRAknjAKCNq5VUZgsgIbosZKC2sxc2UenzDACeL3jS
-g5Tvfh6c9kjgeO0p/P3ZCWY=
-=ioas
+iEYEARECAAYFAlO/OtwACgkQ0+gKWp5CJQpWTwCbBmwvVnsqMJmla6pq/HBiCErt
+kEUAnjMyxevCLOrv4nFwi2yrNnaMFwuR
+=fhA/
 -----END PGP SIGNATURE-----
